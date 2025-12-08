@@ -1,7 +1,7 @@
 ## CCTV-Hunter ##
 
 <p align="center">
-  <img src="https://github.com/Himanshu0ix/CCTV-Hunter/blob/main/banner.gif" width="450">
+  <img src="https://github.com/Himanshu0ix/CCTV-Hunter/blob/main/banner.gif" width="220">
 </p>
 
 ---
@@ -26,7 +26,7 @@ You have to only give a file path of 100+ cctv ip and just sit back in a minute 
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip git -y
-git clone https://github.com/<your-username>/CCTV-Scanner
+git clone https://github.com/Himanshu0ix/CCTV-Hunter
 cd CCTV-Scanner
 pip3 install -r requirements.txt
 chmod +x install.sh
@@ -38,7 +38,7 @@ python3 cctv_scanner.py --help
 ```
 pkg update && pkg upgrade -y
 pkg install python git
-git clone https://github.com/<your-username>/CCTV-Scanner
+git clone https://github.com/Himanshu0ix/CCTV-Hunter
 cd CCTV-Scanner
 pip install -r requirements.txt
 chmod +x install.sh
