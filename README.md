@@ -22,6 +22,8 @@ sudo apt install python3 python3-pip git -y
 git clone https://github.com/<your-username>/CCTV-Scanner
 cd CCTV-Scanner
 pip3 install -r requirements.txt
+chmod +x install.sh
+./install.sh
 python3 cctv_scanner.py --help
 ```
 ---
@@ -32,6 +34,8 @@ pkg install python git
 git clone https://github.com/<your-username>/CCTV-Scanner
 cd CCTV-Scanner
 pip install -r requirements.txt
+chmod +x install.sh
+./install.sh
 python3 cctv_scanner.py --help
 ```
 ## Usage Examples ##
