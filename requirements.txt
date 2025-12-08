@@ -1,0 +1,7 @@
+aiohttp
+requests
+rich
+pyfiglet
+beautifulsoup4
+shodan
+urllib3
