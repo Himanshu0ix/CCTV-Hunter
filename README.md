@@ -4,7 +4,6 @@
   <img src="https://github.com/Himanshu0ix/CCTV-Hunter/blob/main/banner.gif" width="220">
 </p>
 
----
 
 Let's say you got a bunch of full 100 + IPs and you have to recon  which ip is open so that you can dig deep, going through each ip and scanning will get you  full of burden and Time wasting isn't it ? 
 you can't scan each IP one by one through N-map or shodan
