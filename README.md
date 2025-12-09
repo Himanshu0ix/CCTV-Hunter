@@ -14,7 +14,7 @@ This is recon at scale.
 This Tool fires **asynchronous TCP** probes that go through IP lists without waiting around for timeouts like traditional scanners. It identifies open ports which IP will be **accessible** & which ports is **Inaccessible**.
 You have to only give a file path of 100+ cctv ip and just sit back in a minute you will have all open ports of cctv ip's which you can access 
 
-# **Disclaimer** #
+>[!NOTE]
 >This tool may take some time to complete scans, though performance improvements will continue in future updates.
 >If a port appears closed in the scan but open on Shodan, it does not mean the tool is giving false results. This usually indicates one of the following:
 >The target IP is not accessible from your region/network
@@ -44,6 +44,10 @@ chmod +x install.sh
 ./install.sh
 python3 cctv_scanner.py --help
 ```
+---
+> [!NOTE]
+> For **Shodan(API)** Log in to [shodan][https://account.shodan.io/]
+> Go to Account section and you're good to go
 ## Usage Examples ##
 > Scan a single IP
 ```
